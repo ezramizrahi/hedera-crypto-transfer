@@ -18,13 +18,13 @@ async function main() {
     .addHbarTransfer(operatorAccount, new Hbar(-100))
     .addHbarTransfer("0.0.3", new Hbar(100));
 
-  // Submit the transaction to a Hedera network
+  // submit the transaction to a Hedera network
   const txResponse = await transaction.execute(client);
 
-  // Request the receipt of the transaction
+  // request the receipt of the transaction
   const receipt = await txResponse.getReceipt(client);
 
-  // Get the transaction consensus status
+  // get the transaction consensus status
   const transactionStatus = receipt.status;
 
   console.log(receipt);
