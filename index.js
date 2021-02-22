@@ -6,7 +6,7 @@ async function main() {
   const operatorAccount = process.env.ACCOUNT_ID;
   const operatorPrivateKey = process.env.PRIVATE_KEY;
   if (operatorAccount == null || operatorPrivateKey == null ) {
-    throw new Error("Environment variables myAccountId and myPrivateKey must be present");
+    throw new Error("Environment variables operatorAccount and operatorPrivateKey must be present");
   };
 
   // set up Testnet Client
