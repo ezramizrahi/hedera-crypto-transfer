@@ -17,7 +17,7 @@
 
 ## About
 
-Testing the [Hedera Hashgraph JavaScript SDK](https://docs.hedera.com/guides/docs/sdks). Transferring Hbars from my Testnet account to another.
+Testing the [Hedera Hashgraph JavaScript SDK](https://docs.hedera.com/guides/docs/sdks). Transferring HBAR from my Testnet account to another.
 
 ### Built With
 
